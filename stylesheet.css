@@ -19,10 +19,9 @@ li {
 
 .container {
     width: 100%;
-    max-width: 1430px;
+    max-width: 1200px;
     padding: 0 40px;
-    float: center;
-    margin-bottom: 80px; 
+    margin: 0 auto;
 }
 
 header {
@@ -36,77 +35,102 @@ header {
     top: 0px;
     z-index: 10;
 }
+.header-left {
+    float: right;     
+}
 
 .header-logo {
     width: 65px;
     height: 65px;
-    padding: 0 0;
     float: left;
 }
 
 .header-right p {
     float: left;
-    font-size: 28px;
+    font-size: 30px;
     font-family: "Futura";
     color:gray;
-    padding: 10px 20px 0 20px;
+    padding: 10px 20px;
+    margin: auto 0;
 }
 
-.header-left {
-    float: right; 
-    
-}
+
 .header-left li{
     float: right;
     padding: 20px 20px;
-
     color:gray;
 }
 
 .top-wrapper {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin: 100px 0;
     text-align: center;
 }
 
 .title {
-    color: #02ccba;
+    background-color: #02ccba;
+    color:white;
     font-size: 72px;
+    letter-spacing: 2px;
+    font-family:"Futura";
+}
+
+.top-wrapper p{
+    background-color: #02ccba;
+    color:white;
+    padding-bottom:10px;
 }
 
 .work {
     width: 50%;
-    padding:50px 10px 100px 10px;
+    padding:50px 10px;
     margin-bottom: 10px;
-    float:left;
-}
-
-.work1  {
-    height: 850px;
-}
-.work2  {
-    height: 850px;
+    float: left;
 }
 
 .work-title {
     color:black;
     opacity: 0.8; 
     padding-bottom : 2px;
+    padding-left:10px;
     border-bottom: 2px solid #02ccba;
 }
 
-.works p {
+.work p {
     color: gray;
-    padding: 10px 10px 10px 10px;
+    margin: 30px 10px;
+    text-align: justify;
 }
+
+
+.work1  {
+    height: 850px;
+    margin-bottom:30px;
+}
+.work2  {
+    height: 1300px;
+    margin-bottom:30px;
+}
+
+.work3  {
+    height: 1300px;
+    margin-bottom:30px;
+}
+
+.work4 {
+    height: 900px;
+    margin-bottom:30px;
+}
+
+
 .image-left {
-    width: 49%;
+    width: 50%;
     float: left;
-    margin-right: 2px;
+    
 }
 .image-right {
-    width: 49%;
+    width: 50%;
     float: left;
+    padding-left: 2px;
 }
 
 
@@ -116,19 +140,17 @@ header {
 }
 
 
-
-
-
 .movie {
-    background-color: rgb(139, 213, 218);
+    background-color: #02ccba;
     padding: 5px 10px;
     color:white;
-    opacity: 0.7;
+    opacity: 0.8;
     transition: all 0.5s;
     border-radius: 2px;
     text-align: center;
     margin: 0 auto; 
     float: right;
+    font-size:18px;
 }
 
 .movie:hover {
@@ -136,44 +158,20 @@ header {
 }
 
 .pavilion1 {
-    height: 480px;
+    height: 380px;
     object-fit: cover;
 }
 
-.pavilion1 {
-    height: 450px;
-    object-fit: cover;
-}
-
-.work3  {
-    height: 1300px;
-}
-.work4  {
-    height: 1300px;
-}
 
 .kairo {
-    height:420px;
+    height:380px;
     object-fit: cover;
 }
 
-.work5  {
-    height: 1300px;
-}
-.work6  {
-    height: 1300px;
-}
 
-.work7 img {
-    height: 640px;
+.work7-img {
+    height: 400px;
     object-fit: cover;
-}
-
-.work7  {
-    height: 1000px;
-}
-.work8 {
-    height: 1000px;
 }
 
 .clear {
@@ -181,11 +179,14 @@ header {
 }
 
 footer {
+    width: 100%;
+    background-color: gray;
     text-align: center;
     font-size: 28px;
     font-family: "Futura";
-    color:gray;
-    padding: 10px 20px 0 20px;
-   
+    color:white;
+    opacity:0.8;
+    padding: 60px 20px;
+    
 }
 
